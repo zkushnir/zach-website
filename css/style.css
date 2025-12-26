@@ -96,7 +96,8 @@ body {
 .section-divider {
   border: none;
   border-top: 1px solid var(--border);
-  margin: 0 auto 1.75rem;
+  margin-top: 24px;     /* 👈 add / adjust this */
+  margin-bottom: 24px;
   max-width: var(--max-width);
 }
 
