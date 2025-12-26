@@ -176,7 +176,7 @@ p {
 .hero-image {
   display: block;
   width: 180px;
-  height: 180px;
+  height: 250px;
   border-radius: 10px;      /* square-ish with soft corners */
   object-fit: cover;
   border: 1px solid var(--border);
