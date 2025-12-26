@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Projects – Zachary Kushnir</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page">
+  <header class="site-header">
+    <div class="nav-inner">
+      <div class="site-title">
+        <a href="index.html">Zachary Kushnir</a>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="blog.html">Blog</a>
+        <a href="art.html">Art</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="content-wrapper">
+    <h1>Projects</h1>
+    <p class="muted">Selected work in robotics, materials, and assistive technology.</p>
+
+    <h2>Hand Exoskeleton for Motor Recovery</h2>
+    <p>
+      Graduate research in CMU’s NeuroMechatronics Lab. I design, prototype, and test a 3D-printed hand exoskeleton
+      intended to improve motor function after stroke and spinal cord injury. The work spans mechanism design,
+      actuation, and EMG-informed control strategies, with the long-term goal of clinical deployment.
+    </p>
+
+    <h2>Mechano-Activated Shape-Morphing Laminates</h2>
+    <p>
+      Research on thin aluminum–plastic laminate composites that can morph shape when mechanically activated,
+      supporting applications like deployable structures and adaptive surfaces. My contributions include experimental
+      characterization and analysis of deformation and failure behavior, leading to a co-authored publication in
+      Advanced Engineering Materials.
+    </p>
+
+    <h2>Acutronic Co-op – High-Precision Motion Systems</h2>
+    <p>
+      As a mechanical engineering co-op at Acutronic, I worked on multi-axis, high-speed rotational systems used
+      to test missiles and other aerospace systems. I designed precision components, created manufacturing drawings,
+      and performed load-verification and wobble tests on custom motion platforms to meet tight performance specs.
+    </p>
+
+    <h2>Automatic Jar Opener</h2>
+    <p>
+      A powered jar-opening device designed to make everyday tasks more accessible. I handled mechanical design,
+      prototyping, and iteration, focusing on torque transmission, ergonomics, and reliability across different jar
+      sizes and lid geometries.
+    </p>
+
+    <h2>Machine Learning Projects</h2>
+    <p>
+      A set of projects built while teaching and taking introductory machine learning courses. Topics include:
+    </p>
+    <ul class="link-list">
+      <li>Implementing a feedforward neural network with backpropagation and regularization</li>
+      <li>PCA-based facial recognition with SVM and k-NN classifiers</li>
+      <li>K-means clustering for image color quantization</li>
+      <li>Regularization studies comparing training vs. test error across hyperparameters</li>
+    </ul>
+
+    <h2>“Zachatronic” Turn Signal</h2>
+    <p>
+      A custom embedded system project (“Zachatronic” turn signal) combining microcontrollers, simple electronics,
+      and mechanical fixtures to create a more expressive, visible signaling system for cyclists or personal mobility.
+    </p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-text">
+        <span class="muted">© <span id="year"></span> Zachary Kushnir.</span>
+      </div>
+      <div class="footer-links">
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

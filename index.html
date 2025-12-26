@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zachary Kushnir</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page">
+  <header class="site-header">
+    <div class="nav-inner">
+      <div class="site-title">
+        <a href="index.html">Zachary Kushnir</a>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="blog.html">Blog</a>
+        <a href="art.html">Art</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="content-wrapper">
+    <section class="hero">
+      <h1 class="hero-title">Zachary Kushnir</h1>
+      <div class="hero-subtitle">Robotics & Neuro-Mechatronics</div>
+      <div class="hero-location">Pittsburgh, PA · Carnegie Mellon University</div>
+
+      <p>
+        I’m a Mechanical Engineering master’s student at Carnegie Mellon University specializing in robotics and
+        neuro-mechatronics. My current research focuses on designing a hand exoskeleton to help restore motor
+        function after stroke and spinal cord injury.
+      </p>
+      <p>
+        I care about robotics that serve real people: assistive devices, prosthetics, and human–robot interaction
+        grounded in solid mechanics, control, and machine learning.
+      </p>
+      <p>
+        Outside the lab, I compete in Olympic-style karate for Team USA — the same discipline and resilience that
+        drive my training shape how I approach engineering and research.
+      </p>
+    </section>
+
+    <hr class="section-divider">
+
+    <section>
+      <h2>On this site</h2>
+      <ul class="link-list">
+        <li>→ Read more <a href="about.html">about my background, education, and skills</a></li>
+        <li>→ Explore <a href="projects.html">projects</a> in exoskeletons, shape-morphing materials, and robotics</li>
+        <li>→ Check out the <a href="blog.html">blog &amp; recipes</a> for notes on research, training, and food</li>
+        <li>→ Browse my <a href="art.html">art &amp; concept sketches</a></li>
+      </ul>
+    </section>
+
+    <hr class="section-divider">
+
+    <section>
+      <h2>Selected highlights</h2>
+      <ul class="link-list">
+        <li>
+          → Co-author on <a href="https://doi.org/10.1002/adem.202300739" target="_blank" rel="noopener">
+          mechano-activated shape-morphing laminate composites</a> (Advanced Engineering Materials)
+        </li>
+        <li>
+          → Researcher in CMU’s
+          <a href="https://www.meche.engineering.cmu.edu/faculty/neuromechatronics-lab.html" target="_blank" rel="noopener">
+          NeuroMechatronics Lab</a>
+        </li>
+        <li>
+          → Former co-op at Acutronic, working on high-precision multi-axis motion systems for aerospace and defense
+        </li>
+        <li>
+          → Team USA athlete profile and press features (karate)
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-text">
+        <span class="muted">© <span id="year"></span> Zachary Kushnir.</span>
+      </div>
+      <div class="footer-links">
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
