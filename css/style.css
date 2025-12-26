@@ -43,7 +43,9 @@ body {
   margin: 0 auto;
   width: 100%;
   flex: 1;
+  text-align: center;
 }
+
 
 /* Nav */
 
@@ -126,11 +128,12 @@ p {
   margin-right: auto;
   text-align: center;
 }
+
 .hero-image {
   margin: 1.25rem auto 1.5rem;
   display: block;
-  width: 160px;
-  height: 160px;
+  width: 110px;     /* or whatever size you liked */
+  height: 110px;
   border-radius: 50%;
   object-fit: cover;
   border: 1px solid var(--border);
@@ -165,7 +168,9 @@ p {
 .link-list {
   list-style: none;
   padding: 0;
-  margin: 0.3rem 0 0.75rem;
+  margin: 0.3rem auto 0.75rem;
+  max-width: 600px;
+  text-align: left;
 }
 
 .link-list li {
