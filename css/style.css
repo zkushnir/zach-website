@@ -137,6 +137,12 @@ p {
   flex-wrap: wrap;
   gap: 1.75rem;
   align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.hero-left,
+.hero-right {
+  text-align: left;
 }
 
 .hero-left {
@@ -174,6 +180,7 @@ p {
   border-radius: 10px;      /* square-ish with soft corners */
   object-fit: cover;
   border: 1px solid var(--border);
+  margin: 0;  
 }
 
 .hero-links {
