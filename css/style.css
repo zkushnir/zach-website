@@ -43,7 +43,6 @@ body {
   margin: 0 auto;
   width: 100%;
   flex: 1;
-  text-align: center;
 }
 
 
@@ -123,20 +122,48 @@ p {
 
 .hero {
   margin-top: 2rem;
-  max-width: 640px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+}
+
+.hero-grid {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.75rem;
+  align-items: flex-start;
+}
+
+.hero-left {
+  flex: 0 0 190px; /* fixed-ish left column */
+}
+
+.hero-right {
+  flex: 1;
+  min-width: 230px;
 }
 
 .hero-image {
-  margin: 1.25rem auto 1.5rem;
   display: block;
-  width: 110px;     /* or whatever size you liked */
-  height: 110px;
-  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  border-radius: 8px;       /* square-ish with soft corners */
   object-fit: cover;
   border: 1px solid var(--border);
+}
+
+.hero-links {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+}
+
+.hero-links a {
+  text-decoration: none;
+  color: var(--link);
+}
+
+.hero-links a:hover {
+  text-decoration: underline;
+  color: var(--link-hover);
 }
 
 .hero-title {
@@ -218,7 +245,18 @@ a:hover {
     gap: 0.35rem;
   }
 
-  .hero-title {
-    font-size: 1.6rem;
+  .hero-grid {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-left {
+    flex: 0 0 auto;
+  }
+
+  .hero-right {
+    width: 100%;
+    text-align: left;
   }
 }
