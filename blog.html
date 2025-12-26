@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Blog – Zachary Kushnir</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page">
+  <header class="site-header">
+    <div class="nav-inner">
+      <div class="site-title">
+        <a href="index.html">Zachary Kushnir</a>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="blog.html">Blog</a>
+        <a href="art.html">Art</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="content-wrapper">
+    <h1>Blog &amp; Recipes</h1>
+    <p class="muted">
+      Informal notes on research, robotics, training, and cooking. Posts are occasional and intentionally low-friction.
+    </p>
+
+    <h2>Posts</h2>
+    <ul class="link-list">
+      <!-- Replace '#' with actual post URLs or separate HTML files when you create them -->
+      <li>[2025-??-??] <a href="#">Designing an EMG-controlled hand exoskeleton</a></li>
+      <li>[2025-??-??] <a href="#">Lessons from co-op: designing for precision motion systems</a></li>
+      <li>[2025-??-??] <a href="#">Training for Team USA while in grad school</a></li>
+    </ul>
+
+    <h2>Recipes</h2>
+    <ul class="link-list">
+      <li>[2025-??-??] <a href="#">Vanilla bean honey ice cream (KitchenAid method)</a></li>
+      <li>[2025-??-??] <a href="#">High-protein “no days off” breakfast</a></li>
+    </ul>
+
+    <p class="muted">
+      (We can later automate this list or wire it to a static blog generator. For now, each new post can just be its own HTML file linked here.)
+    </p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-text">
+        <span class="muted">© <span id="year"></span> Zachary Kushnir.</span>
+      </div>
+      <div class="footer-links">
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
