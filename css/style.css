@@ -181,6 +181,7 @@ p {
   object-fit: cover;
   border: 1px solid var(--border);
   margin: 0;  
+  margin-top: 6px;   /* 👈 add this */
 }
 
 .hero-links {
