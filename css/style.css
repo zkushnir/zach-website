@@ -180,8 +180,7 @@ p {
   border-radius: 10px;      /* square-ish with soft corners */
   object-fit: cover;
   border: 1px solid var(--border);
-  
-  margin-top: 6px;   /* 👈 add this */
+  margin-top: 12px;   /* 👈 add this */
 }
 
 .hero-links {
