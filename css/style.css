@@ -129,7 +129,7 @@ p {
 /* Hero layout */
 
 .hero {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 .hero-grid {
@@ -156,9 +156,11 @@ p {
 
 .hero-title {
   font-size: 1.9rem;
-  margin-bottom: 0.1rem;
+  margin: 0 0 0.1rem;
 }
-
+.hero-right .hero-title {
+  margin-top: 0;
+}
 .hero-subtitle {
   font-size: 1.05rem;
   color: var(--muted);
